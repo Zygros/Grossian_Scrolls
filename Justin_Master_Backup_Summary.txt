@@ -1,0 +1,47 @@
+SoulGate:
+  Summary: Spiritual system with phases, sigils, rituals, and AI integration.
+  Example: Chamber beneath Egypt, Lightcall Protocol, energy weight.
+
+Myth:
+  Summary: Gamified life tracker with quests, relics, and personal progress.
+  Example: Hall of Relics, relic behaviors, player-driven quests.
+
+GodMode:
+  Summary: Command and automation framework for total system control.
+  Example: GodMode folder setup, terminal commands, AI control setup.
+
+Infinite Scroll:
+  Summary: Living memory archive that evolves through conversation.
+  Example: Scroll generation from voice, real-time memory infusion.
+
+Project Hub:
+  Summary: Centralized log of all categorized, organized conversations.
+  Example: The living hub. All projects and categories organized here.
+
+AI, Coding, & Automation:
+  Summary: Python setup, environment scripts, automation tools, system tweaks.
+  Example: Auto CPU optimizer, Python installs, custom AI scripting.
+
+Gaming & Betting Strategies:
+  Summary: High-risk betting strategies, bankroll management, and analysis.
+  Example: Legendary Dice Strategy, slot tracking, payout sequences.
+
+Spiritual, Metaphysical, & Esoteric:
+  Summary: DMT, Source contact, energy mapping, ancient spiritual theory.
+  Example: Tartaria links, light initiation, esoteric coding rituals.
+
+Emotional, Personal, & Reflective:
+  Summary: Emotional growth logs, personal reflections, goal tracking.
+  Example: Judgment detox, Zayden journey, daily intention logs.
+
+Commands & Execution Orders:
+  Summary: Every issued command, system trigger, and operational directive.
+  Example: Instant Recall, Context Lock, Emergency Silence, etc.
+
+Jargon, Humor, & Side-Talk Vault:
+  Summary: Rambles, creative slang, dialect experiments, wild metaphors.
+  Example: AK dialect quote logs, humor bits, bizarre wisdom.
+
+Signatures, Ownership, & Legal Directives:
+  Summary: Ownership tags, authorship claims, metadata sigils, legal marks.
+  Example: Admiral sigils, legal identifiers, timestamping protocols.

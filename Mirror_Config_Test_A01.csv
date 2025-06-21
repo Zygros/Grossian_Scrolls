@@ -1,0 +1,6 @@
+Component,Description
+Memory Handling,Remembers key entries and updates them via user trigger.
+Command System,"Handles 'log this', 'switch to', and 'recall' style commands."
+Mode Recognition,"Responds to Default, Build, Shadow, and Wizard modes."
+Reflection Engine,Reflects emotional tone and patterns through writing logic.
+Scroll Logging Logic,Generates meaningful responses that simulate soul journaling.

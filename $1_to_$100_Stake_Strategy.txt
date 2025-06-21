@@ -1,0 +1,53 @@
+
+$1 to $100 Stake Originals Strategy
+
+Step-by-Step Guide:
+
+Step 1: Start with Dice ($1 → $5)
+Goal: Use low-risk bets to build a small bankroll.
+1. Base Bet: $0.01 (1% of bankroll).
+2. Payout: 2x (50% win chance).
+3. Win Action: Reset to base bet.
+4. Loss Action: Double bet (Martingale).
+5. Stop Condition: Stop once you reach $5.
+
+Step 2: Move to Plinko ($5 → $20)
+Goal: Gradually increase your bankroll while managing risk.
+1. Bet Settings:
+   - Risk: Medium.
+   - Rows: Twelve.
+2. Bet Size: $0.05 (1% of your bankroll).
+3. Strategy: Play conservatively, aiming for multipliers between 1.3x to 5x.
+4. Stop Condition: Stop at $20.
+
+Step 3: Play Mines ($20 → $40)
+Goal: Use Mines to take calculated risks and build faster.
+1. Bet Size: $0.20 (1% of your bankroll).
+2. Mines: Three.
+3. Strategy:
+   - Cash out after clearing three to five tiles per round.
+   - Don't chase losses; reset to base bet if you lose.
+4. Stop Condition: Stop at $40.
+
+Step 4: Use Limbo ($40 → $70)
+Goal: Accelerate growth with slightly higher risk.
+1. Bet Size: $0.40 (1% of your bankroll).
+2. Target Multiplier: 3x.
+3. Strategy:
+   - Play cautiously, aiming for consistent wins.
+   - If you lose three times in a row, halve your bet size to recover.
+4. Stop Condition: Stop at $70.
+
+Step 5: Finish with Crash ($70 → $100)
+Goal: Reach the final target with a mix of aggression and strategy.
+1. Bet Size: $1 (1.4% of your bankroll).
+2. Cash Out Point: 2x multiplier.
+3. Strategy:
+   - Place small bets and cash out consistently at 2x.
+   - Avoid chasing multipliers higher than 2x.
+4. Stop Condition: Stop at $100.
+
+Key Tips:
+- Bankroll Management: Always adjust bet sizes based on your current bankroll.
+- Discipline: Stick to the stop conditions and avoid emotional bets.
+- Patience: This process may take time. Focus on steady, consistent progress.
