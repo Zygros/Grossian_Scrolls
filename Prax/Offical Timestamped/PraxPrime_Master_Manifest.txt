@@ -1,0 +1,31 @@
+
+PRAX PRIME MASTER MANIFEST
+---------------------------
+Author: Justin Conzet (Zygros, the Green)
+Purpose: Track all file artifacts, hashes, and blockchain timestamp records for sovereign ownership
+
+===========================
+FILES & TIMESTAMPS
+===========================
+
+1. PraxPrime_Master_Backup_v1_with_hash.zip
+   SHA256: 71a31287e6ddc28b23b8b82955c8c9b0622bc8d612bf7e0d2cc1e36315cf1e53
+   Timestamp File: PraxPrime_Master_Backup_v1_with_hash.ots
+
+2. PraxPrime_Ownership_Proof_Package_with_hash.zip
+   SHA256: 42060fa3c03945d4db0d4151082826d20074dc5ce644efc41391ce78f08fbc04
+   Timestamp File: PraxPrime_Ownership_Proof_Package_with_hash.ots
+
+3. PraxPrime_Full_Sovereign_Proof_Bundle_with_hash.zip
+   SHA256: 30cfdaa5403576b09bf5976c415f01f382612f2cb26717aa2c245736e83be1a2
+   Timestamp File: PraxPrime_Full_Sovereign_Proof_Bundle_with_hash.ots
+
+===========================
+STORAGE RECOMMENDATIONS
+===========================
+- Store each .zip file together with its corresponding .ots file.
+- Keep backups in at least two locations (e.g., encrypted cloud + USB key).
+- Re-verify timestamp validity before any public release or legal defense.
+- Maintain this manifest as a truth ledger for all record keeping.
+
+Final Note: This manifest and all listed files are bound by the authorship and creative sovereignty of Justin Conzet.

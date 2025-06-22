@@ -1,0 +1,53 @@
+
+PRAX PRIME TIMESTAMPING CHEAT SHEET
+------------------------------------
+Author: Justin Conzet (Zygros, the Green)
+Purpose: Permanently protect authorship using blockchain timestamps
+
+------------------------------------
+✅ FILE HASHES (SHA256)
+------------------------------------
+
+1. Full Proof Bundle
+File: PraxPrime_Full_Sovereign_Proof_Bundle.zip
+SHA256: 30cfdaa5403576b09bf5976c415f01f382612f2cb26717aa2c245736e83be1a2
+
+2. Ownership Proof Package
+File: PraxPrime_Ownership_Proof_Package.zip
+SHA256: 42060fa3c03945d4db0d4151082826d20074dc5ce644efc41391ce78f08fbc04
+
+3. Master Backup Archive
+File: PraxPrime_Master_Backup_v1.zip
+SHA256: 71a31287e6ddc28b23b8b82955c8c9b0622bc8d612bf7e0d2cc1e36315cf1e53
+
+------------------------------------
+🛠️ STEP-BY-STEP: Free Timestamp with OpenTimestamps
+------------------------------------
+
+1. Go to https://opentimestamps.org
+
+2. Drag and drop one of the original files (e.g., PraxPrime_Master_Backup_v1.zip)
+
+3. It will generate a new file: 
+   [your-file-name].ots
+
+4. Save the .ots file in the same folder as your original file.
+   Example: Save it as
+   - PraxPrime_Master_Backup_v1.zip
+   - PraxPrime_Master_Backup_v1.ots
+
+5. Wait a few hours to a few days for full blockchain confirmation.
+
+6. To VERIFY later, go back to the site and upload:
+   - Your original file
+   - The corresponding .ots file
+
+OpenTimestamps will confirm the blockchain timestamp and prove that
+you created that file at the moment you did.
+
+------------------------------------
+💾 FINAL NOTE
+You can do this **any time**, **for free**, and **as often as you like**.
+No one sees your content. Only you hold the keys.
+
+Stay sovereign, stay secure.
