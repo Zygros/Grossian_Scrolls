@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "profile": "runtime",
+  "upgrade": "additive-splus-baseline",
+  "changed_files": [
+    "Grossian_Scrolls/SECURITY.md",
+    "Grossian_Scrolls/CONTRIBUTING.md",
+    "Grossian_Scrolls/LICENSE-STATUS.md",
+    "Grossian_Scrolls/DEPENDENCY-STATUS.md",
+    "Grossian_Scrolls/SPLUS.md",
+    "docs/PROVENANCE.md",
+    "scripts/splus_check.py",
+    ".gitignore",
+    "Grossian_Scrolls/README.md",
+    "workflows/splus-hygiene.yml",
+    "CI-STATUS.md"
+  ],
+  "source_deletion": false,
+  "source_overwrite": false,
+  "ci_status": "workflow-not-published-due-to-github-permission",
+  "generated_workflow_removed_before_publish": true
+}

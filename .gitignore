@@ -24,3 +24,8 @@ temp/
 secrets.json
 config.json
 .env
+__pycache__/
+*.pyc
+.venv/
+.env.*
+.splus-runtime/
