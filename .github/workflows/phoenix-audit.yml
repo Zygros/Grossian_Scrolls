@@ -1,0 +1,74 @@
+name: Phoenix Audit
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python syntax and tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          if find . -type f -name '*.py' -not -path './.git/*' | grep -q .; then
+            python -m compileall -q . -x '(^|/)(.git|venv|.venv|node_modules)/'
+            if [ -f requirements.txt ]; then python -m pip install -r requirements.txt; fi
+            if [ -f pyproject.toml ] || [ -d tests ] || [ -d test ]; then
+              python -m pip install pytest
+              python -m pytest -q
+            fi
+          else
+            echo 'No Python source detected.'
+          fi
+      - name: Node tests and build
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f package.json ]; then
+            node --version
+            npm --version
+            if [ -f package-lock.json ]; then npm ci; else npm install; fi
+            if npm pkg get scripts.test | grep -qv 'null'; then npm test --if-present; fi
+            if npm pkg get scripts.build | grep -qv 'null'; then npm run build --if-present; fi
+          else
+            echo 'No Node package detected.'
+          fi
+      - name: Go tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f go.mod ]; then go test ./...; else echo 'No Go module detected.'; fi
+      - name: Rust checks and tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f Cargo.toml ]; then
+            if [ -f Cargo.lock ]; then cargo check --locked; else cargo check; fi
+            cargo test
+          else
+            echo 'No Rust crate detected.'
+          fi
+      - name: Java tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -x ./mvnw ]; then ./mvnw -q test; elif [ -f pom.xml ]; then mvn -q test; elif [ -x ./gradlew ]; then ./gradlew test; elif [ -f build.gradle ] || [ -f build.gradle.kts ]; then gradle test; else echo 'No Java build detected.'; fi
+      - name: Repository hygiene
+        shell: bash
+        run: |
+          set -euo pipefail
+          if find . -type f -size +5M -not -path './.git/*' | grep -q .; then echo 'Large files detected; review intentionally.'; fi
+          if grep -RInE --exclude-dir=.git --exclude='*.lock' 'AKIA[0-9A-Z]{16}|-----BEGIN (RSA|EC|OPENSSH|PRIVATE) KEY-----|ghp_[A-Za-z0-9_]{20,}' . >/tmp/secret-scan.txt 2>/dev/null; then
+            echo 'Potential credential material detected; inspect and rotate if real.'
+            cat /tmp/secret-scan.txt
+            exit 1
+          fi
+          echo 'Phoenix audit completed.'
