@@ -18,7 +18,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if find . -type f -name '*.py' -not -path './.git/*' | grep -q .; then
+          if find . -type f -name '*.py' -not -path './.git/*' -print -quit | grep -q .; then
             python -m compileall -q . -x '(^|/)(.git|venv|.venv|node_modules)/'
             if [ -f requirements.txt ]; then python -m pip install -r requirements.txt; fi
             if [ -f pyproject.toml ] || [ -d tests ] || [ -d test ]; then python -m pip install pytest; python -m pytest -q; fi
